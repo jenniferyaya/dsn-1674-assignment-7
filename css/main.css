@@ -12,28 +12,50 @@ body {
 
 img {
 	width: 100%;
+	display: block;
 }
 
 figure {
 	margin: 0;
 }
 
+header {
+	background-image: url("../img/pattern.png");
+}
 
 h1 {
 	margin: 0em;
 	padding-bottom: .35em;
 	padding-top: .50em;
 	text-align: center;
-	font-size: 2.5em;
+	font-size: 3em;
 	color: #512200;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+	background-image: url("../img/beetle-graphic.svg"), url("../img/bettle-graphic.svg");
+	background-size: 10% auto, 10% auto;
+	background-repeat: no-repeat, no-repeat;
+	background-position: right 20%, left 40%;
+	display: block;
+}
+
+h1: hover
 	background-color: #ba6e8d;
 
+.masthead {
+	background-image: url("../img/beetle-graphic.svg");
 }
 
+
 nav {
-	background-color: #512200;
-	padding: 0.5em;
+	background-color: rgba(81,34,0,.50);
+	padding: 1em;
+	text-align: center;
 }
+nav ol:hover {
+	background-color: #512200;
+}
+
 
 ol {
 	padding-left: 0;
@@ -44,25 +66,46 @@ ol li {
 	display: inline-block;
 	list-style-type: none;
 	background-color: #ba6e8d;
-	font-size: 1em;
+	font-size: 1.5em;
+	font-family: 'Lato', sans-serif;
+}
+
+nav a {
+	text-decoration: none;
 	color: #fff;
-	margin-right: 1.5em;
+	display: inline-block;
+	padding-right: .50em;
+}
+
+nav a:hover {
+	background-color: #512200;
+}
+
+
+.h2 {
+	background-image: url("../img/cement.jpg");
+	background-size: cover;
+	display: block;
+	padding: 6em;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-image: linear-gradient(to bottom, rgba(0,0,0,), rgba(0,0,0.50));
 }
 
 
 h2 {
-	background-image: url("../img/cement.jpg");
-	padding: 6em;
-	background-size: cover;
-	margin: 0;
 	background-color: #ba6e8d;
-	font-size: 1em;
+	font-size: 1.5em;
 	color: #fff;
 	background-position: center center;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	font-weight: bold;
 }
 
+
 h2:hover {
-	background-color: pink;
+	background-color: #ba6e8d;
 }
 
 figcaption {
@@ -70,6 +113,7 @@ figcaption {
 	text-align: center;
 	padding: 0;
 	font-size: 5em;
+	font-family: 'Lato', sans-serif;
 }
 
 .row {
@@ -90,29 +134,37 @@ figcaption {
 	text-align: center;
 }
 
-.button: hover {
-	background-color: pink;
-}
-
 
 .button {
-	padding: .50em .75em;
-	background-color: limegreen;
+	padding: .25em .50em;
+	display: inline-block;
 	font-size: 1.25rem;
 	color: #fff;
+	position: absolute;
+	left: 20%;
+	bottom: 10px;
 	text-decoration: none;
 	border-radius: 20px;
 	background-image: linear-gradient(to bottom, limegreen, darkgreen);
+	box-shadow: 0 2px 5px rgba(0,0,0,1);
 }
 
-.button: hover {
-	background-color: pink;
+a:hover {
+	background-color: blue;
 }
-
-
 
 
 
 footer {
-	background-color: #512200;
+	background-image: url("../img/beetle-graphic.svg");
+	clear: both;
+	background-repeat: no-repeat;
+	background-color: rgba(81,34,0,.50);
+	padding: 1rem;
+	background-position: center;
+}
+
+.graphic-footer {
+	padding: 1.5em;
+	width: 10% auto;
 }
