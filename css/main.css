@@ -32,10 +32,6 @@ h1 {
 	color: #512200;
 	font-family: 'Lato', sans-serif;
 	font-weight: bold;
-	background-image: url("../img/beetle-graphic.svg"), url("../img/bettle-graphic.svg");
-	background-size: 10% auto, 10% auto;
-	background-repeat: no-repeat, no-repeat;
-	background-position: right 20%, left 40%;
 	display: block;
 }
 
@@ -43,8 +39,20 @@ h1: hover
 	background-color: #ba6e8d;
 
 .masthead {
-	background-image: url("../img/beetle-graphic.svg");
+	padding: 6em;
 }
+
+
+.beetle-l {
+	width: 10%;
+	float: left;
+}
+
+.beetle-r {
+	width: 10%;
+	float: right;
+}
+
 
 
 nav {
