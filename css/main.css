@@ -37,18 +37,15 @@ h1 {
 	display: block;
 }
 
-.masthead {
-	margin: 6em;
-}
 
 .beetle-l {
-	width: 20%;
+	width: 15%;
 	float: left;
 	display: block;
 }
 
 .beetle-r {
-	width: 20%;
+	width: 15%;
 	float: right;
 }
 
