@@ -41,12 +41,13 @@ h1 {
 .beetle-l {
 	width: 15%;
 	float: left;
-	display: block;
+	margin: .5em;
 }
 
 .beetle-r {
 	width: 15%;
 	float: right;
+	margin: .5em;
 }
 
 
