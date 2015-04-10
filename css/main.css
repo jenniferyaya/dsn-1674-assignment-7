@@ -8,6 +8,7 @@ html {
 
 body {
 	margin: 0;
+	min-width: 320px;
 }
 
 img {
@@ -36,18 +37,14 @@ h1 {
 }
 
 
-.masthead {
-	padding: 6em;
-}
-
 
 .beetle-l {
-	width: 10% auto;
+	width: 20%;
 	float: left;
 }
 
 .beetle-r {
-	width: 10% auto;
+	width: 20%;
 	float: right;
 }
 
@@ -72,7 +69,7 @@ ol li {
 	display: inline-block;
 	list-style-type: none;
 	background-color: #ba6e8d;
-	font-size: 1.5em;
+	font-size: 1em;
 	font-family: 'Lato', sans-serif;
 }
 
