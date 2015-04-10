@@ -35,8 +35,6 @@ h1 {
 	display: block;
 }
 
-h1:hover
-	background-color: #ba6e8d;
 
 .masthead {
 	padding: 6em;
@@ -44,12 +42,12 @@ h1:hover
 
 
 .beetle-l {
-	width: 10%;
+	width: 10% auto;
 	float: left;
 }
 
 .beetle-r {
-	width: 10%;
+	width: 10% auto;
 	float: right;
 }
 
